@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "15.0"
   s.watchos.deployment_target = "5.0"
   s.tvos.deployment_target = "15.0"
-  s.source   = { :git => "https://github.com/SwiftyJSON/SwiftyJSON.git", :tag => s.version }
+  s.source   = { :git => "https://github.com/imberezin/kSwiftyJSON", :tag => s.version }
   s.source_files = "Source/SwiftyJSON/*.swift"
   s.resource_bundles = {'SwiftyJSON' => ['Source/SwiftyJSON/PrivacyInfo.xcprivacy']}
 end
