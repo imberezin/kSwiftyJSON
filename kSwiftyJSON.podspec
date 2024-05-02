@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = "kSwiftyJSON"
-  s.version     = "5.0.7"
+  s.version     = "5.0.8"
   s.summary     = "kSwiftyJSON makes it easy to deal with JSON data in Swift"
   s.homepage    = "https://github.com/imberezin/kSwiftyJSON"
   s.license     = { :type => "MIT" }
