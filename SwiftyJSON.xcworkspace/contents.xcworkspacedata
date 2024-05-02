@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:SwiftyJSON.xcodeproj">
+      location = "group:/Users/israelberezin/Documents/Kaltura/kSwiftyJSON/kSwiftyJSON.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Example/Example.xcodeproj">

@@ -21,7 +21,7 @@
 //  THE SOFTWARE.
 
 import UIKit
-import SwiftyJSON
+import kSwiftyJSON
 
 class ViewController: UITableViewController {
 

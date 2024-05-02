@@ -21,7 +21,7 @@
 //  THE SOFTWARE.
 
 import XCTest
-import SwiftyJSON
+import kSwiftyJSON
 
 class PrintableTests: XCTestCase {
     func testNumber() {

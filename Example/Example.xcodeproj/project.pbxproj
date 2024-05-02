@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04733F521D92E6ED002E3A99 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04733F511D92E6ED002E3A99 /* SwiftyJSON.framework */; };
-		04733F531D92E6ED002E3A99 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04733F511D92E6ED002E3A99 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1921AD432BE3A0EF006E9FAD /* kSwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1921AD422BE3A0EF006E9FAD /* kSwiftyJSON.framework */; };
+		1921AD452BE3A19D006E9FAD /* kSwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1921AD442BE3A19D006E9FAD /* kSwiftyJSON.framework */; };
 		A82A1C1F19D926B8009A653D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82A1C1E19D926B8009A653D /* AppDelegate.swift */; };
 		A82A1C2419D926B8009A653D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A82A1C2219D926B8009A653D /* Main.storyboard */; };
 		A82A1C2619D926B8009A653D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82A1C2519D926B8009A653D /* Images.xcassets */; };
@@ -24,7 +24,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				04733F531D92E6ED002E3A99 /* SwiftyJSON.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,7 +32,8 @@
 
 /* Begin PBXFileReference section */
 		04294C501BE5A9DE00D0397E /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		04733F511D92E6ED002E3A99 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1921AD422BE3A0EF006E9FAD /* kSwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = kSwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1921AD442BE3A19D006E9FAD /* kSwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = kSwiftyJSON.framework; path = "../../../../Library/Developer/Xcode/DerivedData/SwiftyJSON-dfrsfrgazfnxixcsaaztysvakohy/Build/Products/Debug-iphoneos/kSwiftyJSON.framework"; sourceTree = "<group>"; };
 		A82A1C1919D926B8009A653D /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82A1C1D19D926B8009A653D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A82A1C1E19D926B8009A653D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,20 +49,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04733F521D92E6ED002E3A99 /* SwiftyJSON.framework in Frameworks */,
+				1921AD452BE3A19D006E9FAD /* kSwiftyJSON.framework in Frameworks */,
+				1921AD432BE3A0EF006E9FAD /* kSwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1921AD412BE3A0EF006E9FAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1921AD422BE3A0EF006E9FAD /* kSwiftyJSON.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A82A1C1019D926B8009A653D = {
 			isa = PBXGroup;
 			children = (
-				04733F511D92E6ED002E3A99 /* SwiftyJSON.framework */,
+				1921AD442BE3A19D006E9FAD /* kSwiftyJSON.framework */,
 				04294C501BE5A9DE00D0397E /* Playground.playground */,
 				A82A1C1B19D926B8009A653D /* Example */,
 				A82A1C1A19D926B8009A653D /* Products */,
+				1921AD412BE3A0EF006E9FAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

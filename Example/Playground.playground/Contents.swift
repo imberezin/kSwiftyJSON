@@ -1,4 +1,4 @@
-//: Playground - noun: a place where people can play
+
 /*:
 # SwiftyJSON
 SwiftyJSON makes it easy to deal with JSON data in Swift.
@@ -8,7 +8,8 @@ You must have to build `SwiftyJSON iOS` package for import.
 /*:
 ### Basic setting for playground
 */
-import SwiftyJSON
+/*
+import kSwiftyJSON
 import Foundation
 
 var jsonData: Data?
@@ -412,3 +413,5 @@ let stringRepresentionJson: JSON = JSON(stringRepresentationDict)
 let representation = stringRepresentionJson.rawString([.castNilToNSNull: true])
 print(representation!)
 // representation is "{\"1\":2,\"2\":\"two\",\"3\":null}", which represents {"1":2,"2":"two","3":null}
+
+*/

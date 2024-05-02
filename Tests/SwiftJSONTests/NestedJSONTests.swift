@@ -21,7 +21,7 @@
 //  THE SOFTWARE.
 
 import XCTest
-import SwiftyJSON
+import kSwiftyJSON
 
 class NestedJSONTests: XCTestCase {
     let family: JSON = [

@@ -4,16 +4,16 @@ import PackageDescription
 let package = Package(
     name: "kSwiftyJSON",
     products: [
-        .library(name: "kSwiftyJSON", targets: ["SwiftyJSON"])
+        .library(name: "kSwiftyJSON", targets: ["kSwiftyJSON"])
     ],
     targets: [
-        .target(name: "SwiftyJSON", 
+        .target(name: "kSwiftyJSON",
                 dependencies: [],
                 resources: [
                     .copy("PrivacyInfo.xcprivacy")
                 ]
                ),
-        .testTarget(name: "SwiftJSONTests", dependencies: ["SwiftyJSON"])
+        .testTarget(name: "SwiftJSONTests", dependencies: ["kSwiftyJSON"])
     ],
     swiftLanguageVersions: [.v5]
 )
