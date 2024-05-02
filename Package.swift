@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftyJSON",
+    name: "kSwiftyJSON",
     products: [
         .library(name: "SwiftyJSON", targets: ["SwiftyJSON"])
     ],
